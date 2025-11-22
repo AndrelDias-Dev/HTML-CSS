@@ -1,0 +1,17 @@
+main { text-align: center;
+        
+
+}
+
+h1 { text-align: center;
+}
+
+a {
+            text-decoration: none; /* Remove o sublinhado */
+            color: inherit; /* Usa a cor do texto ao redor */
+        }
+
+a:hover {
+            text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+            color: blue; /* Muda a cor ao passar o mouse (opcional, pode alterar) */
+        }

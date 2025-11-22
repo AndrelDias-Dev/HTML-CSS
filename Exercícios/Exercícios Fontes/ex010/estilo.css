@@ -1,0 +1,25 @@
+body {background-color: rgb(0, 132, 255);
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {color: white;
+
+
+}
+
+h2 {color:white;
+
+}
+
+div > p {display: none;
+
+
+
+}
+
+div:hover > p {display: block;
+    background-color: brown;
+
+
+}

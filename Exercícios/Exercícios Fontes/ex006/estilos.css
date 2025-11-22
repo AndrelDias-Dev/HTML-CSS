@@ -1,0 +1,46 @@
+body {background-image: linear-gradient(to right, #C595CF, #E700FA, #9C37A5);
+height: 1700px;
+}
+
+h1, h2, h3 {color: #77FA00;
+text-shadow: 2px 2px 1px black;
+
+}
+
+
+.oi {margin: auto;
+
+
+}
+
+header {text-align: center;
+
+
+}
+
+main {background-color: white;
+    width: 1000px;
+    height: 1400px;
+    box-shadow: 10px 10px 10px #753D7A;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+
+}
+
+img {max-width: 400px;
+
+
+
+}
+
+p {font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+color: black;
+
+
+
+
+}
+

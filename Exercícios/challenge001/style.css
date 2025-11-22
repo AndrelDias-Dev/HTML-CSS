@@ -1,0 +1,39 @@
+
+
+
+.texto  {max-width: 1150px;
+  margin: 0 flex;
+  padding: 0;
+  text-align: left;
+
+}
+
+.thumb {border-style: solid;
+        
+
+}
+
+.lista {
+  display: block; /* mantém a pilha vertical */
+   margin-left: 0;
+  padding-left: 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin: 0;
+
+}
+
+.links img {
+  width: 32px;
+  height: 32px;
+  margin-right: 25px;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}

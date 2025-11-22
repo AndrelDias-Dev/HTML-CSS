@@ -1,0 +1,143 @@
+body {font-family: Arial, Helvetica, sans-serif;
+       background-color: dimgray;
+ margin: 0px;
+
+}
+
+header {background-color: white;
+    padding: 10px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px 0px;
+    box-shadow: 3px 1px 7px 1px #2b2b2b;
+    
+
+}
+
+main {background-color: white;
+     padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 2px 3px 13px 1px #181818;
+    margin-left: 20px;
+    margin-right:20px;
+
+
+
+}
+
+footer {background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    margin-top: 20px;
+
+
+
+}
+
+footer > p {margin: 0px;
+    
+
+
+
+}
+
+#noticias article {background-color: dimgray;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+ 
+
+
+
+
+}
+
+#noticias article > p {text-indent: 30px;
+
+
+}
+
+article > aside > p {padding:5px;
+    text-indent: 10px;
+
+
+
+}
+
+
+article > aside {background-color:rgb(56, 56, 56);
+    color: white;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 10px;
+
+
+
+}
+
+nav {background-color: rgb(56, 56, 56);
+    box-shadow: 1px 2px 4px 3px rgba(56, 56, 56, 0.534); 
+
+
+
+}
+
+nav > a {text-decoration: none;
+    color: white;
+    margin-right: 300px;
+
+
+
+}
+
+nav > a:hover {text-decoration: underline;
+
+
+}
+
+
+
+#assunto > article > aside {background-color: rgb(49, 49, 49);
+    border-radius: 10px;
+    padding: 1px;
+    margin: 10px;
+
+
+}
+
+/* Exemplo acima de tags filhos - id = assunto */ 
+
+#assunto > article > p {text-indent: 30px;
+
+
+}
+
+#assunto > article {background-color: dimgrey;
+     padding: 5px;
+     border-radius: 20px;
+     margin: 10px 10px 10px 10px;
+   
+    
+
+
+}
+
+p {font: bolder normal 30px black;
+
+
+}
+
+div#bola {height: 200px;
+          width: 200px;
+          border-radius: 50%;
+          background-color: rgb(255, 255, 255);
+          margin: 20px;
+          box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.747);
+          
+
+
+
+}
+

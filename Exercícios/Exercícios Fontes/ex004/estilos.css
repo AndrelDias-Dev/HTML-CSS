@@ -1,0 +1,39 @@
+h1,h2,h3 {font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
+width: 500px;
+color: #00FF48;
+text-shadow: 2px 1px 2px black;
+}
+
+.principal { font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+
+
+}
+
+p {font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+
+
+}
+
+main {background-color: white;
+margin: auto;
+width: 1500px;
+height: 800px;
+padding: 50px;
+box-shadow: 20px 20px 15px rgb(104, 0, 0);
+border-radius: 20px;
+text-align: justify;
+
+
+
+}
+
+body {background-color: #ff0000;
+height: 1800px;
+background-image: linear-gradient(300deg, #FF0000, #E22900, #b43102, #b30139 1850px );
+
+
+}

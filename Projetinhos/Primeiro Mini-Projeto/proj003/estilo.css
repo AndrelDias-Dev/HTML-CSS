@@ -1,0 +1,134 @@
+@font-face {
+    font-family:'idroid' ;
+    src: url(fontes/idroid.otf);
+}
+
+
+
+
+body {margin: 0px;
+    background-color: #006405;
+
+
+}
+
+main {background-color: white;
+    margin: auto;
+    width: 1300px;
+    height: 2400px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+
+
+}
+
+
+h1#principal {font: normal 40px 'idroid';
+
+
+
+}
+
+h2.topicos1 {font: normal 30px 'idroid';
+    background-color: #00ec0c46;
+    margin: 0px 968px 0px 0px;
+
+
+
+}
+
+h2.topicos2 {font: normal 30px 'idroid';
+    background-color: #00ec0c46;
+    margin: 0px 856px 0px 0px;
+    padding: 0px;
+
+
+
+}
+
+
+
+
+#titulo-principal {text-align: center;
+                   font: bolder 40px Verdana;
+                   color: white;
+                   text-shadow: 2px 2px 2px black;
+             
+
+
+
+
+}
+
+#subtitulo {text-align: center;
+    font: normal 30px Verdana;
+    color: white;
+     text-shadow: 2px 2px 2px black;
+
+
+
+}
+
+header {background-image: linear-gradient(to bottom, #00EC0C, #00A808, #006405);
+        padding: 100px 0px 100px 0px;
+        margin: 0px 0px -85px 0px;
+        
+       
+       
+
+
+
+}
+
+p {font: normal 20px Arial;
+    text-align: justify;
+    color: black;
+    text-indent: 20px;
+
+
+
+}
+
+footer > p {
+text-align: center;
+color: white;
+
+
+}
+
+
+a {color: white;
+    text-decoration: none;
+    font: normal 20px verdana;
+    margin: 0px 40px 0px 0px;
+    text-shadow: 2px 2px 2px black;
+    padding: 0px 0px 0px 100px;
+
+   
+    
+    
+
+
+
+}
+
+a:hover {text-decoration: underline;
+
+
+
+}
+
+nav {margin: 100px 0px 0px 0px;
+    text-align: center;
+    background-color: #000000;
+    padding: 20px 20px;
+    
+
+
+
+}
+
+
+

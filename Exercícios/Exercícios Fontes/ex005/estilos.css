@@ -1,0 +1,81 @@
+body {background-image: linear-gradient(to right,#00F2FF, #30B8C1, #407B80 2400px );
+margin: 40px;
+
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    width: 1200px;
+    height: 1500px;
+    box-shadow: 10px 10px 10px #407d83 ;
+
+
+
+}
+
+h1,h2,h3,h4 {color: #FF6800;
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 2px #b94a01;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.principal {margin: 20px;
+            text-align: center;
+
+
+}
+
+p {text-align: justify;
+   font-size: 25px;
+   font-family: 'Courier New', Courier, monospace;
+color: rgb(124, 124, 124);
+}
+
+img {max-width: 400px;
+    height: 485px;
+    border: #FF6800 solid;
+    border-radius: 15px;
+
+}
+
+.velho {
+text-align: left;
+padding: 30px;
+margin-top: 0px;
+font-size: 25px;
+
+
+}
+
+.first {font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+
+.second {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.three {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+
+.four {font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+
+

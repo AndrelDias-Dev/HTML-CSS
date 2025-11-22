@@ -1,0 +1,116 @@
+body { background-image:linear-gradient(to right,#DB9849,#DBAB48,#DB7D48) ;
+text-align: center;
+
+
+
+}
+main {background-color: white;
+    width:1110px;
+    height: 3000px;
+   margin:auto;
+   box-shadow:10px 10px 10px #7e482a;
+    
+
+}
+
+footer {background-color: white;
+       padding: 20px 0px 20px 0px;
+       margin-top: 50px;
+
+}
+
+
+
+a {display: block;
+ text-decoration: none;
+
+
+
+
+}
+
+a:hover {text-decoration: underline;
+    color: #994935;
+
+
+
+}
+
+
+
+img#um {width: 500px;
+    height:500px;
+    padding: 1px;
+  
+
+
+}
+
+.tres {width: 605px;
+    height: 249px;
+    padding: 1px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-bottom: 0px;
+
+
+}
+
+
+
+.coluna {display: flex;
+}
+
+section img {
+    width: 600px;
+    padding: 1px;
+    margin-bottom: 100px;
+    
+    
+}
+
+a p {margin-top: -87px;
+    margin-bottom: 81px;
+
+
+}
+
+a p:hover {color: #994935;
+
+
+}
+
+
+
+p {font: bold normal 20px verdana;
+    color: #DB6548;
+    align-items:  center;
+ text-align: center;
+}
+
+#principal {font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+
+
+}
+
+#subtitulo {font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+h1 {background-color: #be5940;
+    border-radius: 50px;
+
+
+}
+
+h2 {background-color: #be5940;
+    border-radius: 50px;
+    
+
+
+
+}

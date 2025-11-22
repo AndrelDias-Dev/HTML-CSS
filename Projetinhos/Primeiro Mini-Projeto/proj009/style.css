@@ -1,0 +1,151 @@
+@font-face {
+    font-family:'droid' ;
+    src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {--cor01:#F02E1D;
+       --cor02:#C54439;
+       --cor03:#9B4D46;
+       --cor04:#704946;
+       --font-padrão:Arial, sans-serif;
+       --font-titulo:'Bebas Neue', sans-serif;
+       --font-droid:'droid', sans-serif;
+
+
+
+}
+
+body {background-color: #3e3e3e;
+
+}
+
+
+* {margin: 0px;
+   padding: 0px;
+}
+
+header {background-image: linear-gradient( to bottom, var(--cor01), var(--cor02), var(--cor03),  var(--cor04));
+       padding: 60px 60px;
+}
+
+header h1 {text-align: center;
+           color: white;
+           font: bold 3em var(--font-titulo);
+           text-shadow: 2px 2px 2px black;
+           margin-bottom: 30px;
+}
+
+header h2 { text-align: center;
+           color: white;
+           font : bold 2em var(--font-titulo);
+           text-shadow: 2px 2px 2px black;
+}
+nav {background-color: var(--cor04);
+    padding: 20px 20px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.14);
+
+}
+
+nav a {margin-right: 30px;
+       color: white;
+       font: normal bold 1.3em var(--font-titulo);
+       text-decoration: none;
+
+
+}
+
+nav a:hover {background-color: var(--cor01);
+             color: var(--cor04);
+             padding: 21px 21px;
+             transition-duration: 0.1s;
+}
+
+main {background-color: white;
+     max-width: 1200px;
+     height: 3150px;
+     margin: auto;
+     padding: 20px;
+     border-radius: 0px 0px 20px 20px;
+
+}
+
+main h1 {font: normal 2em var(--font-droid);
+      color: var(--cor04);
+      
+
+}
+
+main h2 {font: normal 1.5em var(--font-droid);
+            color: var(--cor04);
+            background-image: linear-gradient(to right, var(--cor01), transparent);
+            text-indent: 10px;
+
+
+
+}
+
+main p {font: normal 1.2em var(--font-padrão);
+        margin: 10px 0px 20px 0px;
+        text-indent: 20px;
+        line-height: 1.6em;
+
+
+
+}
+
+main img {width: 100%;
+
+
+
+}
+
+img.pequena {max-width: 500px;
+             margin: auto;
+             display: block;
+
+
+
+}
+
+aside {background-color: var(--cor02);
+       color: white;
+       padding:20px 20px;
+       border-radius: 20px;
+       font: normal 1.1em var(--font-padrão);
+       box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.282);
+
+
+}
+
+
+aside h3 {background-color: var(--cor04);
+         padding:20px 20px 20px 20px;
+         border-radius: 20px 20px 0px 0px;
+         margin: -20px -20px 0px -20px;
+
+
+
+
+}
+
+aside ul {list-style-type: '\1F5F8\00A0';
+          list-style-position: inside;
+          columns: 2;
+          
+
+
+}
+
+footer {padding: 40px;
+    color: white;
+
+
+
+}
+
+
+
+
