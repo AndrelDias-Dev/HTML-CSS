@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf);
+}
+
+:root {--cor01: rgb(187, 255, 0);
+       --cor02: rgb(114, 155, 2);
+       --cor03: rgb(62, 85, 0);
+}
+
+* {margin: 0px;
+   padding: 0px;
+
+
+
+}
+
+body {background-color: var(--cor02);
+
+
+
+}
+
+header {padding: 50px 50px;
+        background-image: linear-gradient(to bottom,var(--cor01), var(--cor02), var(--cor03));
+
+}
+
+header h1 {text-align: center;
+           color: white;
+           font: normal 4em Impact;
+           text-shadow: 2px 2px 4px black;
+           margin-bottom: 20px;
+           
+}
+
+header h2 {text-align: center;
+           color: white;
+           font:normal 2.5em Impact ;
+           text-shadow: 2px 2px 4px black;
+
+
+}
+
+nav {padding: 25px 25px;
+    background-color: var(--cor03);
+     
+
+}
+
+nav a {color: white;
+       text-decoration: none;
+       font: normal 20px impact;
+       padding: 0px 10px 0px 10px;
+       text-shadow: 1px 1px 1px black;
+      
+
+
+}
+
+nav a:hover {background-color: var(--cor01);
+             padding: 20px 10px 20px 10px;
+             border-radius: 20%;
+             color: var(--cor03);
+
+}
+
+main {max-width: 1255px;
+    height: 3200px;
+    margin: auto;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+main p {line-height: 20px;
+    font: normal 20px Arial;
+    margin: 15px 0px;
+    text-indent: 20px;
+
+
+}
+
+main h1 {font: normal 2.5em 'droid';
+         color: var(--cor03);
+
+
+}
+
+main h2 {font: normal 1.7em 'droid';
+         background-image: linear-gradient(to right, var(--cor02), transparent);
+         color: var(--cor03);
+
+
+}
+
+main img {width: 100%;
+
+
+}
+
+.pequena {max-width: 500px;
+          margin: auto;
+          display: block;
+
+
+}
+
+aside {background-color: var(--cor01);
+     border-radius: 20px 20px 0px 0px;
+     padding:20px;
+     
+     
+    
+}
+
+aside p {font: normal 18px Arial;
+    margin: 20px 0px;
+
+
+
+}
+
+aside h3 {background-color: var(--cor03);
+        border-radius: 20px 20px 0px 0px;
+        padding: 20px 20px 20px 20px;
+        margin: -20px -20px 20px -20px;
+        color: white;
+
+       
+
+
+}
+
+aside ul {list-style-position: inside;
+          list-style-type: '\1F5F8\0A0';
+          columns: 2;
+
+
+}
+
+footer {padding:40px;
+        color: white;
+        font: normal 30px Impact;
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+
+
+}
+
