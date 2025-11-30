@@ -22,13 +22,16 @@ body div#q3 {background-image: url(imagens/wallpaper001.jpg);
 
 }
 
-body {background-image: url(imagens/wallpaper003.jpg);
+body {/*background-image: url(imagens/wallpaper002.jpg);
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
       height: 98vh;
       background-color: black;
-
+      background-attachment: fixed;
+      */
+      background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+      background-size: cover;
 
 }
 
