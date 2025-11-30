@@ -1,0 +1,46 @@
+body div.quadrado {border: 2px solid black;
+                   width: 400px;
+                   height: 400px;
+                   display: inline-block;
+                   margin: 20px;
+                   border-radius: 20px;
+
+}
+
+body div#q1 {background-color: blue;
+
+
+}
+
+body div#q2 {background-image:linear-gradient( to bottom, red, orange);
+
+
+}
+
+body div#q3 {background-image: url(imagens/wallpaper001.jpg);
+
+
+}
+
+body {background-image: url(imagens/wallpaper003.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 98vh;
+      background-color: black;
+
+
+}
+
+main {background-color: white;
+    width: 500px;
+    height: 2000px;
+    margin: auto;
+    border-radius: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px 10px 10px 10px;
+    font-weight: bold;
+    text-indent: 20px;
+
+
+}
