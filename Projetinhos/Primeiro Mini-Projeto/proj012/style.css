@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'droid';
+    src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {--cor01: #EBA400;
+       --cor02: #AB842B;
+       --cor03: #6B5B36;
+       --font-titulo:"Bebas Neue";
+       --font-padrao: Arial;
+       --font-droid: 'droid';
+}
+
+* {margin: 0px;
+   padding: 0px;
+
+
+}
+
+body {background-color: var(--cor02);
+
+
+
+}
+
+header {padding: 80px 50px;
+        background-image: linear-gradient(to bottom, var(--cor01), var(--cor02), var(--cor03));
+
+
+}
+
+header h1 {color: white;
+           font: bold normal 5em var(--font-titulo);
+           text-align: center;
+           text-shadow: 2px 2px 4px black;
+
+}
+
+header h2 {color: white;
+           font: bold normal 2em var(--font-titulo);
+           text-align: center;
+           text-shadow: 2px 2px 4px black;
+
+
+}
+
+nav {padding: 10px 10px;
+     background-color: var(--cor03);
+
+
+}
+
+nav a {color: white;
+       text-decoration: none;
+       font: bold normal 1.3em var(--font-titulo);
+       padding: 0px 10px 0px 10px
+
+}
+
+nav a:hover {background-color: var(--cor01);
+             padding: 10px 10px;
+             border-radius: 20px 20px 0px 0px;
+
+}
+
+main {max-width: 1334px;
+      margin: auto;
+      height: 3000px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 0px 0px 20px 20px;
+
+}
+
+main h1 {font-family: var(--font-droid);
+         color: var(--cor03);
+         
+
+
+}
+
+main h2 {font-family: var(--font-droid);
+         color: var(--cor03);
+         background-image: linear-gradient(to right, var(--cor02), transparent);
+         padding: 4px;
+
+
+
+}
+
+
+
+main img {width: 100%;
+
+
+}
+
+.pequena {max-width: 550px;
+          margin: auto;
+          display: block;
+
+
+
+}
+
+main p {font: normal normal 1.2em var(--font-padrao);
+        margin: 10px 0px;
+        text-indent: 20px;
+
+
+
+}
+
+aside {background-color: var(--cor01);
+       border-radius: 20px 20px 20px 20px;
+       padding: 0px 0px 0px 0px;
+
+
+
+
+}
+
+aside h3 {background-color: var(--cor03);
+          padding: 20px;
+          border-radius: 20px 20px 0px 0px;
+          color: white;
+          font-family: var(--font-titulo);
+          font-size: 1.4em;
+
+
+
+}
+
+aside p {padding:0px 10px 10px 10px;
+
+
+}
+
+aside ul {list-style-position: inside;
+          columns: 2;
+          margin-left: 40px;
+          
+
+
+}
+
+footer {
+    padding: 20px 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: var(--font-padrao);
+}
