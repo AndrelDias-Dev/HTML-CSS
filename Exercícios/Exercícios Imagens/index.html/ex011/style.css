@@ -1,0 +1,186 @@
+.container {background-color: red;
+            padding: 10px;
+            max-width:1888px;
+            height: 97vh;
+            background-image: url(imagens/target001.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+            position: relative;
+
+
+
+}
+
+.conteudo {background-color: orange;
+           max-width: 1888px;      
+           background-image: url(imagens/target001.png);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center center;
+           background-size: cover;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, -50%);
+           
+
+
+
+
+}
+
+body {background-color: black;
+
+
+}
+
+.conteudo2 {background-color: orange;
+           width: 300px;
+           height: 300px;
+           background-image: url(imagens/target001.png);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center center;
+           background-size: cover;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(211%, 50%);
+           
+
+
+
+
+}
+
+.conteudo3 {background-color: orange;
+           width: 300px;
+           height: 300px;
+           background-image: url(imagens/target001.png);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center center;
+           background-size: cover;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(211%, -50%);
+
+}
+
+.conteudo4 {background-color: orange;
+           width: 300px;
+           height: 300px;
+           background-image: url(imagens/target001.png);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center center;
+           background-size: cover;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-312%, -50%);
+
+}
+
+.conteudo5 {background-color: orange;
+           width: 300px;
+           height: 300px;
+           background-image: url(imagens/target001.png);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center center;
+           background-size: cover;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-312%, -150%);
+
+}
+
+
+.conteudo6 {background-color: orange;
+           width: 300px;
+           height: 300px;
+           background-image: url(imagens/target001.png);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center center;
+           background-size: cover;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-312%, 50%);
+
+}
+
+.conteudo7 {background-color: orange;
+           width: 300px;
+           height: 300px;
+           background-image: url(imagens/target001.png);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center center;
+           background-size: cover;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(211%, -150%);
+
+}
+
+.conteudo8 {background-color: orange;
+           width: 300px;
+           height: 300px;
+           background-image: url(imagens/target001.png);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center center;
+           background-size: cover;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, -150%);
+
+}
+
+
+.conteudo9 {background-color: orange;
+           width: 300px;
+           height: 300px;
+           background-image: url(imagens/target001.png);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-position: center center;
+           background-size: cover;
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, 50%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+margin: 0px;
+padding: 0px;
+
+}
