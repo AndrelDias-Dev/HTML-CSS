@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root {--font01:'Verdana, Geneva, Tahoma, sans-serif';
+       --font02: 'Passion One';
+       --font03: 'Sriracha';
+
+}
+
+* {margin: 0px;
+   padding: 0px;
+   line-height: 2em;
+}
+
+html , body {background-color: grey;
+
+
+}
+
+header {background-color: black;
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+}
+
+header h1 {color: white;
+           font: normal small-caps 10vw 'Passion One';
+           text-align: center;
+
+}
+
+header p {color: white;
+          text-align: center;
+          font: normal small-caps 3.5vw 'Verdana';
+          margin-top: -20px;
+
+}
+
+header a {text-decoration: none;
+          color: rgb(255, 243, 134);
+
+
+}
+
+header a:hover {text-decoration: underline;
+
+
+
+}
+
+section {padding-left: 20px ;
+         font-family: var(--font03);
+         padding-top: 10vh;
+         padding-bottom: 10vh;
+         font-size: 2em;
+
+
+}
+
+section p {width: 400px;
+
+
+}
+
+section.normal {background-color: white;
+                color:black;
+            
+
+
+
+}
+
+section.normal p { margin-bottom: 40px;
+
+
+}
+
+section.imagem {background-color: black;
+                color: white;
+                box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.233);
+
+
+
+}
+
+section.imagem p {background-color: rgba(0, 0, 0, 0.247);
+                  padding-left: 10px;
+                  text-shadow: 1px 1px 0px black;
+
+
+
+
+}
+
+section#img01 {background-image: url(../imagens/background001.jpg);
+               background-position: right center;
+               background-attachment: fixed;
+
+
+}
+
+section#img02 {background-image: url(../imagens/background002.jpg);
+               background-position: right center;
+               background-attachment: fixed;
+
+
+}
+
+footer {background-color: black;
+        padding: 20px 20px;
+        color: white;
+        font-family: var(--font01);
+        font-size: 1.4em;
+        text-align: center;
+
+
+}
