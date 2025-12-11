@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {margin: 0px;
+   padding: 0px;
+   height: 96vh;
+}
+
+.container {background-color: cyan;
+            height: 100vh;
+            background-image: url(imagens/target001.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+}
+
+.conteudo {background-color: coral;
+            width: 400px;
+            height: 400px;
+            background-image: url(imagens/target001.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%)
+
+}
