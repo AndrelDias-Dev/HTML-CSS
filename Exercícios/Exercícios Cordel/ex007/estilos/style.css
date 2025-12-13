@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {margin: 0px;
+   padding: 0px;
+   line-height: 2em;
+}
+
+:root {--font01: Verdana, Geneva, Tahoma, sans-serif;
+       --font02: "Passion One";
+       --font03: "Sriracha";
+}
+
+html, body {background-color: grey;
+            height: 100vh;
+
+}
+
+header {padding-top:30px;
+        padding-bottom: 30px;
+        background-color: black;
+}
+
+header h1 {color: white;
+           text-align: center;
+           font: normal small-caps 10vw "Passion One";
+}
+
+header p {color: white;
+           text-align: center;
+           font: normal small-caps 3.5vw "Passion One";
+
+}
+
+header a {color:darkgoldenrod;
+          text-decoration: none;
+
+
+}
+
+header a:hover {color: darkgoldenrod;
+          text-decoration: underline;
+
+
+}
+
+section {padding-top: 10vh;
+         padding-bottom: 10vh;
+         font: normal normal 2em "Sriracha";
+}
+
+section.normal {background-color: white;
+                color: black;
+                padding-left: 10px;
+
+
+}
+
+section.normal p {padding-bottom:30px ;
+
+
+}
+
+section.imagem {background-color: black;
+                color: white;
+                background-image: url(../imagens/);
+
+
+}
+
+section.imagem p {background-color: rgba(0, 0, 0, 0.274);
+                  width: 400px;
+                  padding-left: 10px;
+                  text-shadow: 1px 1px 1px black;
+
+
+}
+
+section#img01 {background-image: url(../imagens/background001.jpg);
+               background-position: right center;
+               background-size: cover;
+               background-attachment: fixed;
+
+
+}
+
+section#img02 {background-image: url(../imagens/background002.jpg);
+               background-position: right center;
+               background-size: cover;
+               background-attachment: fixed;
+
+
+}
+
+footer {background-color: black;
+        color: white;
+        text-align: center;
+        font: normal 1.2em Arial;
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+
+}
