@@ -1,15 +1,32 @@
 @charset "UTF-8";
 
-td {border: 1px solid black;
-    width: 70px;
-    height: 30px;
-    padding: 10px;
+body {height: 100vh;
 
 
 }
 
 table {border-collapse: collapse;
+       width: 200px;
 
 
 }
 
+td {border: 1px solid black;
+    padding-left: 10px;
+    text-align: center;
+
+
+}
+
+.numero {text-align: center;
+         padding-left: 10px;
+         padding-right: 10px;
+
+
+}
+
+th {text-align: left;
+
+
+
+}
