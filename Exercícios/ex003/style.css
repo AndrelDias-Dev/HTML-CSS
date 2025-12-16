@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {font-family: Arial, Helvetica, sans-serif;
+      height: 150vh;
 
 
 }
@@ -15,17 +16,30 @@ caption {font-size: 1.3em;
 
 
 table {border-collapse: collapse;
-    background-color: black;
+    background-color: rgb(255, 243, 243);
+    position: relative;
        
 
 
 }
 
+thead > tr > th {position: sticky;
+                 top: 0;
+                 background-color: blue;
 
-td, th {border: 1px solid rgb(255, 255, 255);
+
+}
+
+
+td, th {border: 1px solid rgb(0, 0, 0);
         text-align: center;
         padding: 5px;
-        color: white;
+        color: rgb(0, 0, 0);
+
+}
+
+tr:nth-child(2n) {background-color: gray;
+
 
 }
 
