@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+  height: 120vh;
+}
+
+table {width: 400px;
+       height: 400px;
+    border-collapse: collapse;
+    text-align: center;
+
+
+}
+
+td, th {border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+
+
+}
+
+
+
+img {width: 150px;
+    margin-left: -23px;
+    margin-right: -23px;
+    margin-bottom: -10px;
+    margin-top: -5px;
+
+
+}
+
+caption {font: normal bolder 1.4em Verdana;
+    color: blue;
+    margin-bottom: 30px;
+
+
+}
