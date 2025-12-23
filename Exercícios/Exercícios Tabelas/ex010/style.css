@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+table {border-collapse: collapse;
+       
+
+
+}
+
+td , th {border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    
+
+}
+
+h1 {
+    font-size: 2em;
+}
+
+caption {
+
+    font: normal normal 2em Verdana;
+}
+
+col.cnotas {background-color: blue;
+
+
+
+}
+
+col.clinas {background-color: brown;
+
+
+}
+
+col.carea {background-color: yellow;
+
+
+}
+
+col.cmedias {background-color: chartreuse;
+
+
+}
+
+div#container {overflow-x: auto;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+
+
+
+}
