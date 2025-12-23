@@ -1,0 +1,27 @@
+td , th {border: 1px solid black;
+    padding: 10px;
+    text-align:center;
+    
+
+
+
+}
+
+tr.cabeça , .nota {background-color: grey;
+          color: white;
+         
+
+
+}
+
+table {border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+tr.total {background-color: grey;
+          color: white;
+
+
+}
