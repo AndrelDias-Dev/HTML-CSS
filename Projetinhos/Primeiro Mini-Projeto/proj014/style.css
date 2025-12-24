@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'droid' ;
+    src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {--font01:'droid';
+       --font02:'Bebas Neue';
+       --cor01:#90D6B1;
+       --cor02:#90D698;
+       --cor03:#90D6C9;
+}
+
+* {margin: 0px;
+   padding: 0px;
+   line-height: 2em;
+}
+
+body {background-color: #1f2d21;
+
+
+}
+
+header {background-image: linear-gradient(to bottom, var(--cor01),var(--cor02), var(--cor03) );
+        padding-top: 90px;
+        padding-bottom: 50px; 
+        margin: -10px;    
+}
+
+header h1 {color: white;
+           text-shadow: 1px 1px 1px black;
+           text-align: center;
+           font: bolder normal 5em var(--font02);
+}
+
+header h2 {color: white;
+           text-align: center;
+           text-shadow: 1px 1px 1px black;
+           font: bolder normal 2em var(--font02);
+}
+           
+nav {padding-top:20px;
+     padding-bottom:20px;
+     padding-left: 10px;
+     background-color: var(--cor03);
+     margin: -10px;  
+}
+
+nav a {color: white;
+       padding: 10px 20px 10px 20px;
+       font: bolder normal 1.4em var(--font02);
+       text-shadow: 1px 1px 1px black;
+       text-decoration: none;
+}
+
+nav a:hover {background-color: var(--cor02);
+             border-radius: 20px;
+             transition: 0.4s;
+
+
+}
+
+main {max-width: 1250px;
+      margin: auto;
+      background-color: white;
+      padding: 10px;
+      margin-top: 10px;
+
+
+
+}
+
+main h1 , h2 {font-family: 'droid';
+              color: var(--cor02);
+              text-shadow: 1px 1px 1px black;
+}
+
+main img {width: 100%;
+
+
+}
+
+main p {font: normal normal 1.4em var(--font02);
+        text-indent: 20px;
+
+
+}
+
+main aside {background-color: var(--cor03);
+            padding: 0px 10px 0px 10px;
+            border-radius: 20px 20px 20px 20px;
+            
+
+
+
+}
+
+aside p {padding: 10px;
+
+
+}
+
+aside ul {columns: 2;
+        list-style-position: inside;
+
+
+}
+
+main h3 {font: bolder 2em var(--font02);
+    background-color: var(--cor02);
+    padding: 10px 10px 10px 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 20px 20px 0px 0px;
+
+
+   
+
+
+}
