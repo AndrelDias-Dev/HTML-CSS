@@ -68,6 +68,17 @@ main {max-width: 1250px;
       background-color: white;
       padding: 10px;
       margin-top: 10px;
+      border-radius: 0px 0px 20px 20px;
+
+
+
+}
+
+main a {text-decoration: none;
+        color: #273929;
+        background-color: var(--cor03);
+        border-radius: 10px;
+        padding: 5px;
 
 
 
@@ -83,8 +94,16 @@ main img {width: 100%;
 
 }
 
+img.pequena {max-width: 500px;
+             margin: auto;
+             display: block;
+
+
+}
+
 main p {font: normal normal 1.4em var(--font02);
         text-indent: 20px;
+        padding: 10px 0px;
 
 
 }
@@ -115,9 +134,11 @@ main h3 {font: bolder 2em var(--font02);
     margin-left: -10px;
     margin-right: -10px;
     border-radius: 20px 20px 0px 0px;
+}
 
-
-   
-
-
+footer {padding-top: 30px;
+        padding-bottom: 30px;
+        color: white;
+        font: normal bolder 2em var(--font02);
+        text-align: center;
 }
