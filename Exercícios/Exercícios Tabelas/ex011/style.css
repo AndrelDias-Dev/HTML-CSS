@@ -1,0 +1,38 @@
+td , th {border: 1px solid black;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+
+
+}
+
+* {margin: 0px;
+}
+
+caption {font: bolder small-caps 2em arial;
+    color: rgb(137, 177, 96);
+
+
+}
+
+table {border-collapse: collapse;
+
+
+}
+
+.col4 {background-color: blue;
+
+}
+
+.col3 {background-color: chartreuse;
+
+
+}
+
+div.container {position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50% , -50%);
+
+
+}
