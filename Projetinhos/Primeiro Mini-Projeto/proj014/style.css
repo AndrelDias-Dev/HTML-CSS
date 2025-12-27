@@ -74,6 +74,7 @@ main {max-width: 1250px;
 
 }
 
+
 main a {text-decoration: none;
         color: #273929;
         background-color: var(--cor03);
@@ -124,6 +125,7 @@ aside p {padding: 10px;
 
 aside ul {columns: 2;
         list-style-position: inside;
+        list-style-type:'\00A0\1F5F8' ;
 
 
 }
@@ -139,6 +141,11 @@ main h3 {font: bolder 2em var(--font02);
 footer {padding-top: 30px;
         padding-bottom: 30px;
         color: white;
-        font: normal bolder 2em var(--font02);
+        font: normal bolder 1.5em var(--font02);
         text-align: center;
+}
+
+main a::after {content:'\00A0\1F517' ;
+
+        
 }
