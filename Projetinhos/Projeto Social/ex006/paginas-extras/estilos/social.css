@@ -1,0 +1,33 @@
+* {margin: 0px;
+           padding: 0px;
+        }
+
+        body {width: 100vw;
+              height: 100vh;
+
+
+        }
+
+        img {width: 100vw;
+              
+
+
+        }
+
+        a {display: block;
+           padding: 30px;
+           background-color: brown;
+           color: white;
+           font-weight: bolder;
+           text-align: center;
+           text-decoration: none;
+
+
+        }
+
+        ::-webkit-scrollbar {width: 0px;
+                             height: 0px;
+
+
+
+        }
