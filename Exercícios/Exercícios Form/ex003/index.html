@@ -10,14 +10,14 @@
 
 
     <h1>Teste de Formulário</h1>
-    <form action="conteudo.php">
+    <form action="conteudo.php" autocomplete="on">
         <p>
-            <label for="">Usuário: </label>
-            <input type="text" name="usu" id="iusu" placeholder="Nome de Usuário" required  minlength="6" maxlength="10">
+            <label for="iusu">Usuário: </label>
+            <input type="text" name="usu" id="iusu" placeholder="Nome de Usuário" required  minlength="6" maxlength="10" method="get">
         </p>
         <p>
-            <label for="">Senha: </label>
-            <input type="text" name="sen" id="isen" placeholder="Digite sua Senha" required minlength="6" maxlength="10">
+            <label for="isen">Senha: </label>
+            <input type="text" name="sen" id="isen" placeholder="Digite sua Senha" required minlength="6" maxlength="10" method="post">
         </p>
         <p>
             <input type="submit">
