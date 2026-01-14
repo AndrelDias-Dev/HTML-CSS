@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Formulário</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="isu">Nome:</label>
+            <input type="text" name="usu" id="isu">
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen">
+        </p>
+        <p>
+            <label for="inu">Nota:</label>
+            <input type="number" name="nu" id="inu" step="0.1">
+        </p>
+        <p>
+            <label for="idate">Data:</label>
+            <input type="date" name="date" id="idate">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
