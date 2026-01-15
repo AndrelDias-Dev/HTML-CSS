@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Formulário</title>
+</head>
+<body>
+    <form action="conteudo.php" autocomplete="on" method="post">
+        <p>
+            <label for="isu">Nome:</label>
+            <input name="usu" id="isu" type="text" required placeholder="Nome de Usuário" >
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input name="sen" id="isen" type="password" required placeholder="Digite sua Senha">
+        </p>
+        <p>
+            <label for="inum">Nota:</label>
+            <input name="num" id="inum" type="number" required placeholder="0 a 10" step="0.1">
+        </p>
+        <p>
+            <label for="imes">Período Letivo:</label>
+            <input name="mes" id="imes" type="month">
+        </p>
+        <p>
+            <label for="idate">Dia da Prova:</label>
+            <input name="date" id="idate" type="date" required>
+        </p>
+        <p>
+            <label for="ihora">Horário da Prova:</label>
+            <input name="hora" id="ihora" type="time">
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>
