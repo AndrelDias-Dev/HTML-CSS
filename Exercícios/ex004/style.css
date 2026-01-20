@@ -1,0 +1,96 @@
+* {margin: 0px;
+   padding: 0px;
+
+
+}
+
+header {padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgb(0, 0, 136);
+
+
+}
+
+header h1 {text-align: center;
+    font: normal bolder 3em Arial;
+    color: yellow;
+    text-shadow: 2px 2px 2px rgb(255, 145, 0);
+    
+
+
+}
+
+
+header p {text-align: center;
+    font: normal bolder 2em Arial;
+    color: yellow;
+    text-shadow: 2px 1px 1px rgb(255, 145, 0);
+
+
+
+}
+
+nav {background-color: rgb(0, 0, 136);
+    padding: 10px;
+
+
+
+}
+
+nav a {color: white;
+       text-decoration: none;
+       padding: 20px;
+       font: normal bolder 1.4em Arial;
+       text-shadow: 3px 1px 1px black;
+
+
+}
+
+body {width: 100vw;
+      height: 200vh;
+      background-image: url(imagens/fundo-madeira.jpg);
+      background-size: cover;
+      background-position: top center;
+
+
+}
+
+section#img-p {text-align: center;
+               position: relative;
+               top: -30%;
+               left: 0%;
+               transform: translate(0% , 10%);
+               
+
+
+
+}
+
+section#img-p p {color: white;
+                 font: small-caps bolder 1.5em Arial ;
+                 text-shadow: 2px 2px 2px black;
+                 background-color: rgba(255, 0, 0, 0.202);
+                 margin-bottom: 30px;
+                
+
+
+    
+}
+
+
+
+section#img-p img {border-radius: 50%;
+     width: 200px;
+     border: 2px solid white;
+   
+}
+
+section#2 {
+
+    
+}
+
+
+
+
+
