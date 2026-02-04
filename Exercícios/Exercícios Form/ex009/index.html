@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+   
+</head>
+<body>
+    <form action="conteudo.php" method="post" autocomplete="on">
+
+        <h1>Exemplo de Formulário</h1>
+
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input required type="radio" name="sexo" id="imas"><label for="imas">Masculino</label><br>
+            <input required type="radio" name="sexo" id="ife" ><label for="ife">Feminino</label> <br>
+
+        </fieldset>
+
+        <fieldset id="time">
+            <legend>Quais são os melhores times do Brasil</legend>
+            <input type="checkbox" name="times" id="ifla"><label for="ifla">Flamengo</label><br>
+            <input  type="checkbox" name="times" id="ipal"><label for="ipal">Palmeiras</label><br>
+            <input  type="checkbox" name="times" id="icor"><label for="icor">Corinthians</label><br>
+            <input type="checkbox" name="times" id="iatle"><label for="iatle">Atlético-MG</label><br>
+            <input type="checkbox" name="times" id="iflu"><label for="iflu">Fluminense</label>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+
+        <input type="reset" value="Limpar">
+
+    </form>
+</body>
+</html>
