@@ -1,0 +1,28 @@
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        img {width: 100%;
+
+
+        }
+
+        ::-webkit-scrollbar {width: 0px;
+                            height: 0px;
+
+
+        }
+
+        a {background-color: red;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 20px;
+
+
+        }

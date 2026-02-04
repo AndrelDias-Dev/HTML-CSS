@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+
+        * {margin: 0px;
+           padding: 0px;
+
+
+        }
+
+        body {background-color: rgb(112, 112, 112);
+
+
+        }
+
+        h1 {color: white;
+            margin:190px 40px 40px 100px;
+            text-align: center;
+
+
+        }
+
+
+        form {background-color: rgb(53, 54, 55);
+             box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.259);
+              padding: 30px 20px 0px 20px;
+              margin-left: 20px;
+              border-radius: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50% , -50%);
+             
+              
+              
+
+
+        }
+
+        form p {color: white ;
+                font: normal bolder 1em Verdana;
+                height: 70px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
+
+        }
+
+        input {background-color: rgb(170, 170, 170);
+               color: black;
+               font-weight: bolder;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+               font: normal 1em Arial;
+               padding: 2px;
+
+
+        }
+
+        input#ien {width: 200px;
+                   height: 30px;
+                   border-radius: 5px;
+
+
+        }
+
+        input#ire {width:60px;
+                   height:30px;
+                   border-radius: 5px;
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Preencha o formulário abaixo:</h1>
+        <form action="conteudo.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="iusu">Nome:</label>
+            <input name="usu" id="iusu" type="text" required placeholder="Nome de Usuário">
+        </p>
+
+        <p>
+            <label for="iema">Email:</label>
+            <input name="ema" id="iema" type="email" required placeholder="Digite seu Email">
+        </p>
+
+        <p>
+            <label for="isen">Senha:</label>
+            <input name="sen" id="isen" type="password" required placeholder="Digite sua Senha">
+        </p>
+
+        <p>
+            <label for="ien"></label>
+            <input name="en" id="ien" type="submit" value="Enviar">
+
+            <label for="ire"></label>
+            <input name="re" id="ire" type="reset" value="Limpar">
+        </p>
+
+
+        </form>
+    </main>
+</body>
+</html>
