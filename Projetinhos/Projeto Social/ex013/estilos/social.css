@@ -1,0 +1,32 @@
+* {
+             margin: 0px;
+             padding: 0px;
+        }
+
+        img {margin: auto;
+             display:block;
+             width: 100%;
+
+            
+        }
+
+        ::-webkit-scrollbar {width: 0px;
+                             height: 0px;
+
+        }
+
+        a {background-color: red;
+           color: white;
+           text-decoration: none;
+           display: block;
+           text-align: center;
+           font-size: 2em;
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       
+
+
+        }
+
+        a:hover {background-color: rgb(101, 0, 0);
+
+        }
