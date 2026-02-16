@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@media print { /* IMPRESSÃO */
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+     img {
+        border: 2px solid black;
+
+
+     }
+
+     main::after {
+        content: 'Esse artigo foi impresso no site MediaQuerie.com';
+        font-size: 0.5em;
+     }
+
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) { /* TABLET */
+
+    body {background-image: url(imagens/back-tablet.jpg)
+
+    }
+
+    img {background-image: url(imagens/icon-tablet.png);
+
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+    
+}
+
+@media screen and (min-width:1024px) and (max-width:1535px){ /* PC */
+
+    body {background-image: url(imagens/back-pc.jpg);
+
+
+    }
+
+    img {background-image: url(imagens/icon-pc.png);
+
+
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+    
+}
+
+@media screen and (min-width:1536px)  { /* TELAS GRANDES */
+
+    body {background-image: url(imagens/back-tv.jpg);
+
+
+    }
+
+    img {
+        background-image: url(imagens/icon-tv.png);
+    }
+
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+    
+    
+}
