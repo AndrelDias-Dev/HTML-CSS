@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+html {font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+header {text-align: center;
+
+}
+
+nav {display: none;
+
+
+}
+
+article p {text-indent: 30px;
+
+
+}
+
+article::after {content: 'O artigo foi impresso através do site www.TheCatNews.com';
+
+
+}
+
+
+
+
+footer {display: none;
+
+
+}
