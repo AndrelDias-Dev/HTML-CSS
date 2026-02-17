@@ -9,11 +9,6 @@
     main::after {
         content: 'Esse artigo foi impresso no site www.CatNews.com.br';
     }
-
-
-
-
-
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) { /* TABLET */
@@ -50,8 +45,6 @@
     img#tablet{display: none;}
     img#pc{display: none;}
     img#tv{display: block;}
-
-
 }
 
 
