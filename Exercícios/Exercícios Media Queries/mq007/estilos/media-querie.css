@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media print { /* IMPRESSÃO */
+
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main::after {
+        content: 'Esse artigo foi impresso no site www.CatNews.com.br';
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) { /* TABLET */
+
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 1280px ) and (max-width: 1535px ) { /* PC */ 
+
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 1536px) { /* TV */
+
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: none;}
+    img#tv{display: block;}
+
+
+}
+
+
