@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/telas.css" media="screen">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+    <span class="material-symbols-outlined" id="burguer" onclick="clickBurguer()">menu</span>
+        <menu id="menuzin">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi optio vero, consequatur quo necessitatibus id quis quia quod ab, a perspiciatis ducimus alias, facilis quidem voluptatibus dolores beatae qui! Exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non atque consectetur ab quidem dignissimos adipisci laudantium a ipsam reprehenderit ex, nisi temporibus. Iure nihil aliquid debitis, eos velit quidem sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fuga cum dignissimos quaerat recusandae illum minus aperiam nobis repudiandae! Esse deleniti accusamus natus repudiandae cumque! Veniam expedita necessitatibus quam possimus!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae ad hic commodi eius autem qui quibusdam? Quos, quibusdam dolor ab repellendus saepe quas cumque tenetur vitae consectetur, aut dolores laudantium? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit odit quis velit incidunt beatae perspiciatis voluptatibus praesentium! Sint voluptatem esse, unde optio ipsum cumque, eius porro explicabo, dicta aut earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolore modi nesciunt vitae minima recusandae debitis quibusdam quae, cum tenetur, ratione eligendi placeat dolor, aspernatur expedita facere iste excepturi illo.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eaque aliquam autem soluta tempore veritatis officia esse! Aut praesentium voluptatum debitis, recusandae, incidunt temporibus, esse facilis modi quae repellat eos. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia animi dicta eum reprehenderit incidunt laudantium corrupti deserunt optio sapiente nulla? Commodi natus pariatur non illo suscipit, nulla impedit inventore ea.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, cum! Laborum, culpa libero quisquam inventore debitis quod molestias beatae aut quaerat deserunt perspiciatis natus sapiente necessitatibus deleniti voluptas fugiat dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem commodi eius, provident a dolores veniam qui. Adipisci dolores rerum ex qui alias ducimus incidunt eveniet! Obcaecati hic dicta aspernatur voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolorum eaque, officia facere, deserunt commodi harum inventore animi id dolor maxime, ducimus nam perferendis! Reprehenderit harum repellat mollitia consequatur a?</p>
+        </article>
+    </main>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                menuzin.style.display = 'block'
+            } else {
+                menuzin.style.display = 'none'
+            }
+        }
+
+
+        function clickBurguer() {
+            if (menuzin.style.display == 'block') {
+                menuzin.style.display = 'none'
+            } else {
+                menuzin.style.display = 'block'
+            }
+        } 
+           
+    </script>
+</body>
+</html>
