@@ -3,22 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
     <title>Login</title>
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-
+                <img src="imagens/Duna.jpg" alt="">
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
+                
+                <div id="usuario">
+                    <label for="iuser"><img class="icons" src="imagens/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""></label>
+                    <input type="email" name="usuario" id="iuser" placeholder="Digite seu Email">
+                </div>
+                <div id="senha">
+                    <label for="isenha"><img class="icons" src="imagens/vpn_key_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""></label>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua Senha">
+                </div>
+
+                <p>
+                    <label for="ienter"></label>
+                    <input type="submit" value="Entrar" id="ienter">
+                </p>
+
+                <p>
+                    
+                </p>
 
                     
                 </form>
+                
 
             </div>
 

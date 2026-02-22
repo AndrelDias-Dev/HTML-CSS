@@ -6,3 +6,113 @@
   Areia laranja: #D9A566
   Areia clara: #F2BE7E
 */
+
+.icons {
+  position: relative;
+  top: 7px;
+  left: 2px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body , html {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {text-align: center;
+  margin-bottom: 10px;
+    
+
+}
+
+p {text-align: justify;
+
+}
+
+body {
+  background-image: linear-gradient(to top , #734309 , #D9A566 , #F2BE7E , transparent);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  width: 54vw;
+  height: 500px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  border-radius: 20px 20px 20px 20px;
+
+}
+
+div#imagem img {
+  position: relative;
+  width: 287px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50% , -6%);
+  border-radius: 20px 20px 0px 0px;
+  
+
+  
+}
+
+input#iuser {
+  height: 25px;
+  border-radius: 6px;
+  margin-left: 5px;
+  width: 210px;
+  border: 2px solid #734309d2;
+  padding-left: 5px;
+}
+
+input#isenha {
+  height: 25px;
+  border-radius: 6px;
+  border: 2px solid #734309d9;
+  margin-left: 5px;
+  width: 210px;
+  padding-left: 5px;
+}
+
+input#ienter {
+  width: 265px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #734309;
+  color: white;
+  margin-top: 10px;
+  border: 2px solid #734309c2;
+}
+
+input#ienter:hover {
+  background-color: #794e1a;
+ 
+}
+
+
+div#usuario {
+  background-color: #b88c57;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+
+
+}
+
+div#senha {
+  margin-top: 5px;
+  background-color: #b88c57;
+  height: 40px;
+  border-radius: 10px;
+
+}
