@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 675px) and (max-width: 1279px) { /* TABLET */
+
+    main {
+        width: 70vw
+        
+    }
+
+    div#imagem img {
+        width: 70vw;
+    }
+    
+}

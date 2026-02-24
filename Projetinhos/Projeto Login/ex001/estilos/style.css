@@ -35,15 +35,13 @@ p {text-align: justify;
 }
 
 body {
-  background-image: linear-gradient(to top , #734309 , #D9A566 , #F2BE7E , transparent);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #734309;
 }
 
 main {
   background-color: white;
   padding: 10px;
-  width: 54vw;
+  width: 56vw;
   height: 500px;
   margin: auto;
   position: absolute;
@@ -56,10 +54,9 @@ main {
 
 div#imagem img {
   position: relative;
-  width: 287px;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50% , -6%);
+  width: 58vw;
+  left: 49%;
+  transform: translate(-49% , -2%);
   border-radius: 20px 20px 0px 0px;
   
 
@@ -92,6 +89,7 @@ input#ienter {
   color: white;
   margin-top: 10px;
   border: 2px solid #734309c2;
+  width: 56vw;
 }
 
 input#ienter:hover {
