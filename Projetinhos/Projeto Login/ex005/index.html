@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilos/media-queries.css" media="screen">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=vpn_key" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
     <title>Projeto Login</title>
 </head>
 <body>
@@ -20,16 +21,23 @@
 
             <form action="conteudo.php" method="post" autocomplete="on">
                 <div class="campo">
-                    <span class="material-symbols-outlined">person</span>
-                    <input type="email" name="login" id="ilogin">
-                    <label for="ilogin">Login</label>
+                    <img src="icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <input type="email" name="login" id="ilogin" placeholder="Digite seu Email" autocomplete="email" required minlength="0" maxlength="10">
+                    <label for="ilogin"></label>
                 </div>
 
                 <div class="campo">
-                    <span class="material-symbols-outlined">vpn_key</span>
-                    <input type="password" name="senha" id="isenha">
-                    <label for="isenha">Senha</label>
+                    <img id="icon" src="icons/vpn_key_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    <input type="password" name="senha" id="isenha" placeholder="Digite sua Senha" autocomplete="current-password" required>
+                    <label for="isenha"></label>
                 </div>
+                    <label for="ienviar"></label>
+                    <input type="submit" name="enviar" id="ienviar" value="Entrar">
+
+                    <a class="botao" href="esqueci.html">
+                        Esqueci a Senha <span class="material-symbols-outlined">mail</span>
+
+                    </a>
             </form>
             
         </div>
