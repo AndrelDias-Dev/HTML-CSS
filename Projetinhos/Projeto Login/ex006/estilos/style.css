@@ -78,6 +78,7 @@ div.campo > input {
 
 div.campo > input:focus-within {
     background-color: white;
+    transition: .3s;
 }
 
 div.campo > input::placeholder {
@@ -101,6 +102,7 @@ form > input[type=submit] {
 form > input[type=submit]:hover {
     background-color: #675300;
     color: white;
+    transition: .3s;
 }
 
 form > a {
