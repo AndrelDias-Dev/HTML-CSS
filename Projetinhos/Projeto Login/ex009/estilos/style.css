@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 46, 80);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    width: 300px;
+    height: 545px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px rgb(0, 6, 35);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+div#imagem {
+    background: black url(../imagens/pexels-tamanna-rumee-52377920-7999470.jpg) center center;
+    height: 200px;
+    width: 100%;
+}
+
+div#formulario h1 {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+div#formulario {
+    padding: 10px;
+    text-align: justify;
+}
+
+div.campo {
+    background-color: #00ff5e;
+    margin: 5px 0px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+div.campo img {
+    width: 40px;
+}
+
+div.campo input {
+    width: calc(100% - 47px);
+    border-radius: 10px;
+    height: 36px;
+    border: 0px;
+    outline: 0px;
+    text-indent: 5px;
+    font-size: 1em;
+    background-color: rgba(206, 255, 224, 0.78);
+
+
+    position: relative;
+    top: -13px;
+}
+
+div.campo input:focus-within {
+    background-color: white;
+}
+
+form input[type=submit] {
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #580400bb ;
+    background-color: #FF0B00;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+form input[type=submit]:hover {
+    background-color: #3a0300 ;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    transition: .3s;
+}
+
+form a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgba(84, 84, 84, 0.506);
+    border-radius: 10px;
+    margin: 5px 0px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+form a span {
+    position: relative;
+    top: 7px;
+    padding-left: 5px;
+}
+
+
