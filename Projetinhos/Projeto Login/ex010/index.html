@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="media-queries.css" media="screen">
+    <title>Projeto Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="" alt="">
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="conteudo.php" method="post" autocomplete="off">
+
+                    <div class="campo">
+                        <label for="imail"><img src="icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""></label>
+                        <input type="email" name="email" id="imail" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="isen"><img src="icons/vpn_key_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt=""></label>
+                        <input type="password" name="senha" id="isen" required>
+                    </div>
+
+                    <input type="submit" value="Entrar">
+                    <a href="#">Esqueceu a Senha</a>
+
+                </form>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
