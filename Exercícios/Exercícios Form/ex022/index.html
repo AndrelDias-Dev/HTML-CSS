@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exercícios de Formulários(Output)</h1>
+
+    <form action="conteudo.php" method="post" autocomplete="off">
+        
+        <p>
+            <label for="nu1">Número 1:</label>
+            <input type="number" name="Número 1" id="nu1" oninput="isoma.innerHTML = Number(nu1.value) + Number(nu2.value)">
+        </p>
+
+        <p>
+            <label for="nu2">Número 2:</label>
+            <input type="number" name="Número 2" id="nu2" oninput="isoma.innerHTML = Number(nu1.value) + Number(nu2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Soma</label>
+            <output  id="isoma">0</output>
+        </p>
+    </form>
+
+    <form action="coneteudo.php" method="post" autocomplete="off">
+        <p>
+            <label for="iran">Nível de Satisfação:</label>
+            <input type="range" name="satisfação" id="iran" value="5" min="0" max="10" oninput="nvl.innerHTML = Number(iran.value)">
+            <output id="nvl">5</output>
+        </p>
+    </form>
+
+    <form action="conteudo.php" method="post" autocomplete="off">
+        <p>
+            <label for="inas">Em que ano você nasceu?</label>
+            <input type="number" name="nasceu" id="inas" oninput="calcIdade()">
+        </p>
+
+        <p>
+            <label for="iidade">Essa é sua idade</label>
+            <output id="iidade">0</output>
+        </p>
+    </form>
+
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(inas.value)
+        }
+    </script>
+    
+</body>
+</html>
