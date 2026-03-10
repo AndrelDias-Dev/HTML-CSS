@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"/>
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-queries.css" media="screen">
     <title>Criando site Streaming</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header id="ini">
         <h1>Netflix</h1>
-        <span class="material-symbols-outlined" id="burguer" onclick="clickBurguer()">menu</span>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickBurguer()"><img src="" alt=""></span>
         <menu id="menuzin">
             <ul>
                 <li><a href="#ini">Início</a></li>
                 <li><a href="#con">Conteudo</a></li>
+                <li><a href="#assina">Assine</a></li>
                 <li><a href="#parça">Parceiros</a></li>
                 <li><a href="#pe">Sobre</a></li>
             </ul>
@@ -33,7 +33,7 @@
             </div>
         </section>
 
-        <section class="assine">
+        <section class="assine" id="assina">
 
             <div id="assine-1" >
                 <h1>R$ 20,90/mês</h1>
@@ -88,6 +88,16 @@
     </footer>
 
     <script>
+
+        function mudouTamanho() {
+            if (window.style.display >= 768) {
+                menuzin.style.display = 'block'
+            } else {
+                menuzin.style.display = 'none'
+            }
+        }
+
+
         function clickBurguer() {
             if (menuzin.style.display == 'block') {
                 menuzin.style.display = 'none'
