@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(171, 216, 170);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    background-color: white;
+    width: 100vw;
+    height: 1500px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+section#icons {
+    background-color: rgb(17, 0, 255);
+    width: 90vw;
+    height: 200px; 
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    
+}
+
+section div#mas {
+    background: url(../icons/Mastercard--Streamline-Svg-Logos\ \(1\).png) center center;
+    background-size: 50px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    margin: auto;
+    flex: auto;
+}
+
+section div#mac {
+    background: transparent url(../icons/mcdonalds.png) center center;
+    background-size: 40px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    margin: auto;
+    flex: auto;
+}
+
+section div#nes{
+    background: rgba(255, 255, 255, 0.512) url(../icons/nestle.png) center center;
+    background-size: 40px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    margin: auto;
+    flex: auto;
+}
+
+section div#nu {
+    background: url(../icons/Nubank--Streamline-Simple-Icons\ \(1\).png) center center;
+    background-size: 40px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    margin: auto;
+    flex: auto;
+}
+
