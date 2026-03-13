@@ -24,10 +24,9 @@ section#icons {
     background-color: rgb(17, 0, 255);
     width: 90vw;
     height: 200px; 
-    margin: auto;
     margin-top: 40px;
     display: flex;
-    text-align: center;
+    margin: auto;
     
 }
 
