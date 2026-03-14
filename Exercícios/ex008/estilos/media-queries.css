@@ -1,7 +1,31 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) { /*PHONE*/
+@media screen and (max-width: 768px) { /*PHONE*/
 
+    div#mas {
+        background-size: 50px;
+    }
+
+    div#nes {
+        background-size: 50px;
+        position: relative;
+        top: 2px;
+    }
+
+    div#nu {
+        position: relative;
+        background-size: 54px;
+        top: 1px;
+    }
+
+    div#mac {
+        background-size: 40px;
+    }
+
+    section.parceiros {
+        height: 50px;
+    }
+  
 }
 
 @media screen and (min-width: 769px) { /*TABLET*/
@@ -134,6 +158,7 @@
         
         
     }
+
 
 
 }

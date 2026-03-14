@@ -92,7 +92,7 @@ section.conteudo {
 }
 
 div#img1 {
-    background: url(../imagens/pexels-anastasia-shuraeva-4406692.jpg);
+    background: url(../imagens/netflix-library-1280x720.webp);
     background-repeat: no-repeat;
     background-position: 50% 20%;
     background-size: cover;
@@ -201,6 +201,7 @@ section.parceiros {
     background-color: rgb(255, 255, 255);
     margin-top: 20px;
     height: 70px;
+    padding-left: 24px;
     margin: auto;
     display: flex;
     width: 90vw;
@@ -280,6 +281,8 @@ span#sem , span#com , span#pre {
     font-weight: bolder;
     color: yellow;
 }
+
+
 
 
 
