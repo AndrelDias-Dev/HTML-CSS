@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+}
+
+section#login {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.535);
+    transition: 0.3s;
+    transition-timing-function: ease;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#imagem {
+    background: url(../imagens/pexels-damir-mijailovic-1921088-3695238.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-bottom: 10px;
+
+}
+
+div#formulario {
+    padding: 10px;
+}
+
+div#formulario p {
+    background-color: blue;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+div#formulario p img {
+    width: 40px;
+    position: relative;
+    top: 7px;
+    left: 2px;
+}
+
+div#formulario p input {
+    height: 40px;
+    width: calc(100% - 60px);
+    border-radius: 10px;
+    position: relative;
+    top:-7px;
+    left: 5px;
+    border: none;
+    font-size: 1em;
+    text-indent: 5px;
+}
+
+input[type=submit] {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: rgb(255, 142, 60);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(92, 51, 22);
+    color: white;
+}
+
+div#formulario a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+div#formulario a:hover {
+    text-decoration: underline;
+}
