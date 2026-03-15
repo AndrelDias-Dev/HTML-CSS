@@ -9,6 +9,8 @@ section.container {
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-flow: row wrap;
+    justify-content: flex-start;
+    height: 500px;
 }
 
 div.itens {
@@ -22,3 +24,10 @@ div.itens {
     text-shadow: 3px 3px 0px black;
 }
 
+div.itens:hover {
+    color: rgb(255, 153, 0);
+    cursor: pointer;
+    transition: 0.3s;
+    background-image: none;
+    background-color: rgb(0, 30, 255);
+}
