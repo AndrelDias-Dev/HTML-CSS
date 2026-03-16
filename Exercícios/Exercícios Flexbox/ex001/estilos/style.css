@@ -9,8 +9,8 @@ section.container {
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-flow: row wrap;
-    align-content: center;
-    height: 500px;
+    align-items: flex-start;
+    height: 800px;
 }
 
 div.itens {
@@ -31,3 +31,36 @@ div.itens:hover {
     background-image: none;
     background-color: rgb(0, 30, 255);
 }
+
+div#q1 {
+    align-self: flex-start;
+
+}
+
+div#q2 {
+    align-self: center;
+    
+   
+}
+
+div#q3 {
+    align-self: flex-end;
+
+}
+
+div#q4 {
+    align-self: center;
+   
+}
+
+div#q5 {
+    align-self: flex-start;
+    
+}
+
+div#q6 {
+    align-self: center;
+    
+}
+
+
