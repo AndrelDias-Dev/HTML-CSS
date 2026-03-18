@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+
+
+
+section.container {
+    background-color: chartreuse;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+}
+
+ section.mario {
+    background:  url(../imagens/pngkey.com-artwork-png-1293753.png) center center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 97vw - 1px;
+    height: 283px; 
+    display: flex;
+    align-items: flex-start;
+
+    background-color: chartreuse;
+
+}
+
+
+
+
+
+div.items {
+    background-color: cadetblue;
+    background: url(../imagens/depositphotos_572928598-stock-illustration-lucky-block-yellow-question-box.jpg) center center;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size:100px;
+    display: flex;
+    flex-basis:300px;
+    flex-grow: 1;
+
+}
+
+

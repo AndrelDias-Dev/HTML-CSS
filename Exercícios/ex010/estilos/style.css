@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+section.container {
+    background-color: rgb(0, 255, 145);
+    display: flex;
+}
+
+div.items {
+    background-color: burlywood;
+    border: 1px solid black;
+    padding: 20px;
+    flex-basis: 250px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
