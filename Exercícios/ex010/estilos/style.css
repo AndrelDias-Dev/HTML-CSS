@@ -8,8 +8,23 @@ section.container {
 div.items {
     background-color: burlywood;
     border: 1px solid black;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
     flex-basis: 250px;
+
+}
+
+div#cx1 {
     flex-shrink: 1;
     flex-grow: 1;
+}
+
+div#cx2 {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+div#cx3 {
+    flex-shrink: 1;
+    flex-grow: 8;
 }
