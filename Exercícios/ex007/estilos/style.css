@@ -3,46 +3,74 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-html , body {
-    width: 100vw;
-    height: 100vh;
+    box-sizing: border-box;
 }
 
 section.container {
-    background-color: rgb(0, 0, 0);
-    width:90vw;
-    height: 62vh;
+    background-color: rgb(65, 65, 65);
+    padding: 10px;
     display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
 
-
-
-
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
 
 }
 
-div.itens {
-    text-align: center;
-    width: 100%;
-}
-
-div.itens div {
-    background-color: red;
-    width: 98%;
-    height: 82px;
+div.items {
+    background-color: black;
+    color: rgb(255, 0, 0);
     margin: 5px;
+    padding: 30px;
+    height: 100px;
+    border: 4px solid white;
     text-align: center;
-    align-content: center;
-    color: white;
-    font-size: 2em;
+    font-size: 2em;  
     font-weight: bolder;
-    flex: auto;
-    display:inline-block;
+    text-shadow: 3px 3px 3px black;
+    flex-basis: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div#q1 {
+    order: 0;
+    align-self: none;
+}
+
+div#q2 {
+    order: 0;
+    align-self: none;
+}
+
+div#q3 {
+    order: 0;
+    align-self: none;
+}
+
+div#q4 {
+    order: 0;
+    align-self: none;
+}
+
+div#q5 {
+    order: 0;
+    align-self: none;
+}
+
+div#q6 {
+    order: 0;
+    align-self:none
+}
+div#q7 {
+    order: 0;
+    align-self: none;
+}
+div#q8 {
+   order: 0; 
+   align-self: none;
 }
