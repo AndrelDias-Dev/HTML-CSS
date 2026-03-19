@@ -10,21 +10,19 @@ div.items {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
-    flex-basis: 250px;
+    flex: auto;
 
 }
 
+/*
 div#cx1 {
-    flex-shrink: 1;
-    flex-grow: 1;
+    flex: 1 1 auto;
 }
 
 div#cx2 {
-    flex-shrink: 1;
-    flex-grow: 1;
+    flex: 1 1 auto;
 }
 
 div#cx3 {
-    flex-shrink: 1;
-    flex-grow: 8;
+    flex: 1 1 auto;
 }
