@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+
+
+main h1, p {
+    line-height: 1.8em;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    flex: 0 0 400px;
+    padding: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font: bolder 1.3em 'system-ui';
+    padding: 10px;
+    margin-left: 12px; 
+}
+
+header a:hover {
+    color: yellow;
+    font-size: 1.5em;
+    transition: .3s;
+}
+
+section.flex-content {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div.text {
+    flex: 1 1 500px;
+    display: block;
+    text-align: justify;
+}
+
+div.text h1 {
+    color: blue;
+}
+
+div.media {
+    flex: 1 0 400px;
+
+
+}
+
+div iframe {
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+div#dev img {
+    display: block;
+    margin: auto;
+}
+
+
+
+
