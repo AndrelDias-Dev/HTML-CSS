@@ -13,7 +13,6 @@ body {
 }
 
 section.flex-content {
-    padding: 20px;
     background-color: aqua;
     display: flex;
     flex-flow: column wrap;
