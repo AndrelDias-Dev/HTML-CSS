@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    padding: 10px;
+    background-color: aqua;
+}
+
+header {
+    background-color: black;
+    color: white;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1, header {
+    padding: 15px;
+    color: white;
+}
+
+header h1 {
+    flex: 0 0 400px;
+}
+
+header a {
+    font: bolder 1.3em 'system-ui';
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px 5px;
+    text-decoration: none;
+    color: white;
+    padding: 2px 20px;
+}
+
+header a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color .4s;
+}
+
+section.flex-content {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+article.text-media {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div.text {
+    flex: 1 1 500px;
+    text-align: justify;
+    line-height: 2em;
+    padding: 0px;
+}
+
+div.text h1, p {
+    margin: 20px 20px;
+}
+
+div.media {
+    flex: 1 0 400px;
+}
+
+div.media img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+div.media iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+
