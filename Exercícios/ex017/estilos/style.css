@@ -74,6 +74,7 @@ div.text {
     text-align: justify;
     line-height: 2em;
     padding: 0px;
+   
 }
 
 div.text h1, p {
@@ -82,6 +83,7 @@ div.text h1, p {
 
 div.media {
     flex: 1 0 400px;
+   
 }
 
 div.media img {
@@ -95,6 +97,6 @@ div.media iframe {
     margin: auto;
     width: 90%;
     border-radius: 30px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
