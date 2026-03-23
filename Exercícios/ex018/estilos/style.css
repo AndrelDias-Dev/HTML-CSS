@@ -9,8 +9,8 @@
 
 section.container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows:200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
     
     margin: 40px;
     gap: 14px;
