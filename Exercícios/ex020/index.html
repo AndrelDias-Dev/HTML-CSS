@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <style>
+</style>
+    <title>PlayStaion 5</title>
+</head>
+<body>
+    <header>
+        <section class="principal">
+            <h1>Play<span id="stai">Station 5</h1></span>
+        </section>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickBurguer()"><img src="imagens/menu_60dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.png" alt=""></span>
+        <nav id="navzin">
+            <a href="#">Início</a>
+            <a href="#">Atualizações</a>
+            <a href="#">Jogos</a>
+            <a href="#">Notícias</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+    <menu>
+        <div>
+            <a href="#">Fazer login</a>
+        </div>
+        <hr>
+        <div>
+            <a href="#">Registrar-se</a>
+        </div>
+    </menu>
+
+    <main>
+        <div id="titulo">
+            <h1>Confira agora os melhores jogos do PlayStation 5</h1>
+        </div>
+        <section class="container">
+            <article class="games">
+                <div class="items">
+                    <img class="media" width="400px" src="imagens/god_of_war_kratos_and_atreus_2018_game-wallpaper-1280x960.jpg" alt="">
+                    <div class="text">
+                        <h1>God of War: Ragnarök</h1>
+                        <p>Kratos e Atreus enfrentam o inevitável fim dos deuses nórdicos enquanto buscam respostas sobre o destino e o papel de Atreus como Loki. Uma jornada épica de pai e filho, marcada por batalhas intensas, dilemas emocionais e o confronto final contra o próprio Ragnarök.</p>
+                    </div>
+                </div>
+                <div class="items">
+                    <img class="media" width="400px" src="imagens/center.jpeg" alt="">
+                    <div class="text">
+                        <h1>Counter-Striker 2</h1>
+                        <p>A evolução do clássico FPS competitivo, trazendo gráficos aprimorados com a Source 2, jogabilidade refinada e sistemas atualizados de fumaça e física. Mantém o espírito estratégico e tático que consagrou a franquia, agora com uma experiência mais moderna e imersiva.</p>
+                    </div>
+                </div>
+                <div class="items">
+                    <img class="media" width="400px"  src="imagens/dbd.jpeg" alt="">
+                    <div class="text">
+                        <h1>Dead By Daylight</h1>
+                        <p>Um jogo de terror multiplayer assimétrico onde quatro sobreviventes tentam escapar de um assassino implacável. Cada partida é um duelo de tensão e estratégia, misturando perseguições, furtividade e habilidades únicas em cenários sombrios e atmosféricos.</p>
+                    </div>
+                </div>
+               
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Criado pelo Andrel-Dev - PlayStation&reg;5 </p>
+    </footer>
+
+    <script>
+        function clickBurguer() {
+            if (navzin.style.display == 'block') {
+                navzin.style.display = 'none'
+            } else {
+                navzin.style.display = 'block'
+            }
+        }
+
+    </script>
+</body>
+</html>
